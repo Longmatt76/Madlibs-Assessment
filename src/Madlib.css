@@ -1,0 +1,9 @@
+h1 {
+    background-color: rgb(232, 231, 231);
+    padding: 10px;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    color:  #5a81da;
+    text-shadow: 2px 2px 2px black;
+    font-size: 3rem;
+}

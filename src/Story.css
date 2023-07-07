@@ -1,0 +1,10 @@
+.Story-paragraph {
+    background-color: white;
+    width: 400px;
+    padding: 15px;
+    border: black solid 1px;
+    border-radius: 5px;
+    margin: auto;
+    font-family: cursive;
+    font-size: large;
+}

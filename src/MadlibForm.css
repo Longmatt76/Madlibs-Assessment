@@ -1,0 +1,37 @@
+input {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 3%;
+    background-color: rgb(246, 243, 243);
+}
+
+.MadlibForm {
+    text-align: center;
+}
+
+
+button {
+    margin-top: 10px;
+    background-color: #5a81da;
+    color: white;
+    font-size: larger;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 8rem;
+    height: 3rem; 
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid darkblue;
+}
+
+.error {
+    color: red;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
