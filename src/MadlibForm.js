@@ -19,9 +19,10 @@ const MadlibForm = ({ addWord, reset }) => {
     color: Yup.string().required("Field cannot be empty")
   });
 
-  const handleSubmit = (values) => {
+  const handleSubmit = (values, {resetForm}) => {
     addWord(values);
-    reset()
+    resetForm();
+    reset();
   };
 
   return (
